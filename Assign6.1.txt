@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invitation card</title>
+    <style>
+        body{
+            background-color: rgb(252, 204, 245);
+        }
+        .card{
+            width: 500px;
+            margin: 40px auto;
+            padding: 30px;
+            border: 5px solid rgb(75, 1, 1);
+            background-image: url("ChatGPT Image Sep 28, 2026, 10_55_32 AM.png");
+            background-size:cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: 0 0 15px rgb(0, 0, 0);
+        }
+        .content{
+            text-align: center;
+            height: 700px;
+        }
+        .content h3{
+            color: rgb(119, 4, 4);
+            letter-spacing: 2px;
+        }
+        .content h1{
+            color: rgb(77, 2, 2);
+            margin: 10px 0;
+            font-size: 44px;
+        }
+        .sub{
+            font-size: 18px;
+            color: rgb(24, 10, 1);
+        }
+        .event{
+            color: rgb(255, 36, 109);
+            font-size: 28px;
+            margin: 10px 0 20px;
+        }
+        .details{
+            background-color: rgb(252, 228, 241);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        .details p{
+            margin: 8px 0;
+            font-size: 16px;
+        }
+        .icon{
+            margin-right: 10px;
+        }
+        .msg{
+            font-size: 18px;
+            font-style: italic;
+            color: rgb(36, 8, 2);
+            margin-top: 20px;
+        }
+        .divider{
+            width: 80px;
+            height: 2px;
+            margin: 20px auto;
+        }
+        .footer{
+            color: rgb(77, 2, 2);
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="content">
+            <img src="C:\Users\user\OneDrive\Desktop\Subhojit 26099\web design\Assignment 6\360_F_2043030491_Pd5j3TP19WUKaMHDaubawS1MfoQ4HZ6Z.jpg"width="300px" height="25px">
+            <h3>You Are Cordially</h3>
+            <h1>Invited</h1>
+            <img src="C:\Users\user\OneDrive\Desktop\Subhojit 26099\web design\Assignment 6\gold-and-luxury-under-line-png.webp" width="300px" height="50px">
+            <p class="sub">Please join us to celebrate the </p>
+            <h2 class="event">Annual Cultural Fest</h2>
+            <div class="details">
+                <p><span class="icon"><img src="images.png" width="20px" height="20px"></span><b>    Date :</b> Saturday , 12th October 2026</p>
+                <p><span class="icon"><img src="pngtree-clock-icon-simple-flat-vector-png-image_12244605.png" width="30px" height="30px"></span><b>    Time :</b>5:00 PM onwards</p>
+                <p><span class="icon"><img src="5bb8b37d5f22a.jpg" width="20px" height="30px"></span><b>    Venue :</b>City Auditorium , kolkata</p>
+            </div>
+            <p class="msg">Your presence will make<br>
+            this event more special!</p>
+            <div class="devider"><img src="C:\Users\user\OneDrive\Desktop\Subhojit 26099\web design\Assignment 6\gold-and-luxury-under-line-png.webp" width="300px" height="50px"></div>
+            <p class="footer">Let's Celebrate Together!</p>
+        </div>
+    </div>
+</body>
+</html>
